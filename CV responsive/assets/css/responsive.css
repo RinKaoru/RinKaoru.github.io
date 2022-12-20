@@ -1,0 +1,108 @@
+/*RESPONSIVE extra small devices SMARTPHONES*/
+
+
+@media screen and (max-width: 600px) {
+    
+    h2 {
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    
+    h3 {
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    #main {
+        flex-direction: column;
+    }
+    
+    #me {
+        width: 65%;
+    }
+    
+    #me li {
+    padding: 2px;
+    font-size: 15px;
+    }
+    
+    #skills {
+        width: 80%;
+    }
+    .pictos {
+    padding: 3px;
+    }
+
+    .logos {
+    padding: 3px;
+    }
+    
+    .dino {
+    width: 25%;
+    }
+    
+@keyframes bounce {
+        0%   { transform: scale(1,1)    translateY(0); }
+        10%  { transform: scale(1.1,.9) translateY(0); }
+        30%  { transform: scale(.9,1.1) translateY(-15px); }
+        50%  { transform: scale(1,1)    translateY(0); }
+        100% { transform: scale(1,1)    translateY(0); }
+    }
+}
+
+/*RESPONSIVE small devices TABLETTES*/
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    h2 {
+        font-size: 35px;
+        margin-top: 20px;
+    }
+    
+    h3 {
+        font-size: 30px;
+        margin-top: 15px;
+    }
+    
+    p {
+        font-size: 25px;
+    }
+    
+    #main {
+        flex-direction: column;
+    }
+    
+    #me {
+        width: 65%;
+    }
+    
+    #me li {
+    padding: 2px;
+    font-size: 25px;
+    }
+    
+    #skills {
+        width: 80%;
+    }
+    .pictos {
+    padding: 3px;
+    }
+
+    .logos {
+    padding: 3px;
+    }
+    
+@keyframes bounce {
+        0%   { transform: scale(1,1)    translateY(0); }
+        10%  { transform: scale(1.1,.9) translateY(0); }
+        30%  { transform: scale(.9,1.1) translateY(-20px); }
+        50%  { transform: scale(1,1)    translateY(0); }
+        100% { transform: scale(1,1)    translateY(0); }
+    }
+}
+    
